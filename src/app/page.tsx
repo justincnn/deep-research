@@ -45,11 +45,9 @@ function Home() {
         <FinalReport />
       </main>
       <footer className="my-4 text-center text-sm text-gray-600 print:hidden">
-        <a href="https://github.com/u14app/" target="_blank">
-          {t("copyright", {
-            name: "U14App",
-          })}
-        </a>
+        {t("copyright", {
+          name: "U14App",
+        })}
       </footer>
       <aside className="print:hidden">
         <Setting open={openSetting} onClose={() => setOpenSetting(false)} />

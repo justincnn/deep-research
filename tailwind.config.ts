@@ -12,6 +12,8 @@ export default {
   theme: {
     extend: {
       colors: {
+        'dhl-red': '#D40511',
+        'dhl-yellow': '#FFCC00',
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         card: {
