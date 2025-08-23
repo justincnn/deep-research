@@ -35,6 +35,7 @@ import useAccurateTimer from "@/hooks/useAccurateTimer";
 import useDeepResearch from "@/hooks/useDeepResearch";
 import useKnowledge from "@/hooks/useKnowledge";
 import { useTaskStore } from "@/store/task";
+import { useSettingStore } from "@/store/setting";
 import { useKnowledgeStore } from "@/store/knowledge";
 import { getSystemPrompt } from "@/utils/deep-research/prompts";
 import { downloadFile } from "@/utils/file";
@@ -51,6 +52,8 @@ const formSchema = z.object({
 function FinalReport() {
   const { t } = useTranslation();
   const taskStore = useTaskStore();
+  const { mode, networkingModel } = useSettingStore();
+  const researchModel = mode === 'local' ? networkingModel : process.env.NEXT_PUBLIC_MCP_THINKING_MODEL;
   const { status, writeFinalReport } = useDeepResearch();
   const { generateId } = useKnowledge();
   const {
@@ -173,7 +176,7 @@ function FinalReport() {
         <div className="mb-4 space-y-2">
           <div>
             <span className="font-semibold">{t("research.finalReport.researchModel")}:</span>
-            <span className="ml-2">GPT-4</span>
+            <span className="ml-2">{researchModel}</span>
           </div>
           <div>
             <span className="font-semibold">{t("research.finalReport.toolName")}:</span>

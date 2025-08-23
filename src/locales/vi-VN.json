@@ -1,8 +1,8 @@
 {
-  "title": "Nghiên Cứu Sâu",
+  "title": "Thu thập thông tin cảnh NGBN",
   "theme": "Chủ Đề",
   "openSource": "Mã Nguồn Mở",
-  "copyright": "Tạo với ❤️ bởi nhóm {{name}}",
+  "copyright": "Dự án này là một dự án thử nghiệm của DHL NGBN",
   "searchPlaceholder": "Vui lòng nhập từ khóa",
   "research": {
     "common": {
@@ -54,6 +54,9 @@
     },
     "finalReport": {
       "title": "4. Báo Cáo Cuối Cùng",
+      "researchModel": "Mô hình nghiên cứu",
+      "toolName": "Tên công cụ",
+      "reportSummary": "Tóm tắt báo cáo",
       "emptyTip": "Đang chờ tổng hợp dữ liệu...",
       "researchedInfor": "Đã nghiên cứu {{total}} trang web",
       "localResearchedInfor": "Đã nghiên cứu {{total}} tài nguyên cục bộ",

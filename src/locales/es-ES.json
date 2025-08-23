@@ -1,8 +1,8 @@
 {
-  "title": "Deep Research",
+  "title": "Recopilación de información de escena de NGBN",
   "theme": "Tema",
   "openSource": "Código Abierto",
-  "copyright": "Creado con ❤️ por el equipo de {{name}}",
+  "copyright": "Este proyecto es un proyecto experimental de DHL NGBN",
   "searchPlaceholder": "Por favor, introduce palabras clave",
   "research": {
     "common": {
@@ -54,6 +54,9 @@
     },
     "finalReport": {
       "title": "4. Informe Final",
+      "researchModel": "Modelo de investigación",
+      "toolName": "Nombre de la herramienta",
+      "reportSummary": "Resumen del informe",
       "emptyTip": "Esperando a que se recopile la información...",
       "researchedInfor": "Se investigaron {{total}} sitios web",
       "localResearchedInfor": "Se investigaron {{total}} recursos locales",
@@ -287,7 +290,7 @@
     "modelBuiltin": "Integrado en el Modelo",
     "bocha": "Bocha",
     "parallelSearch": "Búsqueda Paralela",
-    "parallelSearchTip": "La búsqueda paralela ayuda a acelerar el proceso de recopilación de datos, pero una tasa demasiado alta puede activar el límite de solicitudes por minuto del modelo.",
+    "parallelSearchTip": "La búsqueda paralela ayuda a acelerlar el proceso de recopilación de datos, pero una tasa demasiado alta puede activar el límite de solicitudes por minuto del modelo.",
     "searchResults": "Resultados de Búsqueda",
     "searchResultsTip": "El número máximo de búsquedas web. Algunos motores de búsqueda no admiten este parámetro.",
     "searchApiKeyPlaceholder": "Por favor, introduce tu Clave API",

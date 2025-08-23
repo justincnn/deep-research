@@ -1,8 +1,8 @@
 {
-  "title": "Deep Research",
+  "title": "NGBN Scene Information Collection",
   "theme": "Theme",
   "openSource": "Open Source",
-  "copyright": "Created with ❤️ by {{name}} team",
+  "copyright": "This project is a DHL NGBN experimental project",
   "searchPlaceholder": "Please enter keywords",
   "research": {
     "common": {
@@ -54,6 +54,9 @@
     },
     "finalReport": {
       "title": "4. Final Report",
+      "researchModel": "Research Model",
+      "toolName": "Tool Name",
+      "reportSummary": "Report Summary",
       "emptyTip": "Waiting for data to be collated...",
       "researchedInfor": "Researched {{total}} websites",
       "localResearchedInfor": "Researched {{total}} local resources",
