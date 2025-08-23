@@ -170,6 +170,20 @@ function FinalReport() {
         <h3 className="font-semibold text-lg border-b mb-2 leading-10 print:hidden">
           {t("research.finalReport.title")}
         </h3>
+        <div className="mb-4 space-y-2">
+          <div>
+            <span className="font-semibold">{t("research.finalReport.researchModel")}:</span>
+            <span className="ml-2">GPT-4</span>
+          </div>
+          <div>
+            <span className="font-semibold">{t("research.finalReport.toolName")}:</span>
+            <span className="ml-2">Deep Research</span>
+          </div>
+          <div>
+            <span className="font-semibold">{t("research.finalReport.reportSummary")}:</span>
+            <span className="ml-2">This is a placeholder for the report summary.</span>
+          </div>
+        </div>
         {taskStore.finalReport !== "" ? (
           <article>
             <MagicDown

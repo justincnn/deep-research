@@ -45,9 +45,8 @@ function Home() {
         <FinalReport />
       </main>
       <footer className="my-4 text-center text-sm text-gray-600 print:hidden">
-        {t("copyright", {
-          name: "U14App",
-        })}
+        <div>{t("copyright")}</div>
+        <div>v{process.env.NEXT_PUBLIC_VERSION}</div>
       </footer>
       <aside className="print:hidden">
         <Setting open={openSetting} onClose={() => setOpenSetting(false)} />

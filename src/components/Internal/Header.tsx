@@ -12,12 +12,14 @@ function Header() {
 
   return (
     <>
-      <header className="flex justify-between items-center my-6 max-sm:my-4 print:hidden">
-        <h1 className="text-left text-xl font-semibold">
+      <header className="relative flex justify-center items-center my-6 max-sm:my-4 print:hidden">
+        <div className="absolute left-0">
+          {/* Placeholder for left-aligned buttons if needed */}
+        </div>
+        <h1 className="text-center text-2xl font-bold text-dhl-red">
           {t("title")}
-          <small className="ml-2 font-normal text-base">v{VERSION}</small>
         </h1>
-        <div className="flex">
+        <div className="absolute right-0 flex">
           <Button
             className="h-8 w-8"
             variant="ghost"

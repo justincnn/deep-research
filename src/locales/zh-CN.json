@@ -54,6 +54,9 @@
     },
     "finalReport": {
       "title": "4. 最终报告",
+      "researchModel": "研究模型",
+      "toolName": "工具名称",
+      "reportSummary": "报告摘要",
       "emptyTip": "等待数据汇总...",
       "researchedInfor": "已研究 {{total}} 个网站",
       "localResearchedInfor": "已研究 {{total}} 个本地资源",
