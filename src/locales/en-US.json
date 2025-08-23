@@ -55,7 +55,7 @@
     "finalReport": {
       "title": "4. Final Report",
       "researchModel": "Research Model",
-      "toolName": "Tool Name",
+      "analyst": "Analyst",
       "reportSummary": "Report Summary",
       "emptyTip": "Waiting for data to be collated...",
       "researchedInfor": "Researched {{total}} websites",

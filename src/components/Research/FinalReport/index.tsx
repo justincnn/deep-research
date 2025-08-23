@@ -52,7 +52,7 @@ const formSchema = z.object({
 function FinalReport() {
   const { t } = useTranslation();
   const taskStore = useTaskStore();
-  const { mode, networkingModel } = useSettingStore();
+  const { mode, networkingModel, thinkingModel } = useSettingStore();
   const researchModel = mode === 'local' ? networkingModel : process.env.NEXT_PUBLIC_MCP_THINKING_MODEL;
   const { status, writeFinalReport } = useDeepResearch();
   const { generateId } = useKnowledge();
@@ -93,7 +93,7 @@ function FinalReport() {
   function getFinakReportContent() {
     const { finalReport, resources, sources } = useTaskStore.getState();
 
-    const metadata = `# ${t("research.finalReport.title")}\n\n**${t("research.finalReport.researchModel")}**: ${researchModel}\n**${t("research.finalReport.toolName")}**: Deep Research\n**${t("research.finalReport.reportSummary")}**: This is a placeholder for the report summary.\n\n---\n\n`;
+    const metadata = `# ${t("research.finalReport.title")}\n\n**${t("research.finalReport.researchModel")}**: ${researchModel}\n**${t("research.finalReport.analyst")}**: ${thinkingModel}\n**${t("research.finalReport.reportSummary")}**: This is a placeholder for the report summary.\n\n---\n\n`;
 
     return [
       metadata,

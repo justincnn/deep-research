@@ -14,7 +14,7 @@ function Header() {
         <div className="absolute left-0">
           {/* Placeholder for left-aligned buttons if needed */}
         </div>
-        <h1 className="text-center text-4xl font-bold text-dhl-yellow">
+        <h1 className="text-center text-4xl font-bold text-dhl-red">
           {t("title")}
         </h1>
         <div className="absolute right-0 flex">
