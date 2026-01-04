@@ -1,13 +1,10 @@
 version: "3.9"
 services:
   deep-research:
-    build:
-      context: .
-      dockerfile: Dockerfile
     platform: linux/arm64
-    image: deep-research
+    image: justincnn/deep-research:latest
     container_name: deep-research
     env_file:
       - .env
     ports:
-      - "3333:3000"
+      - "2278:3000"
