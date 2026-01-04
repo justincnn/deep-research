@@ -1,8 +1,8 @@
 {
-  "title": "深度研究",
+  "title": "客户研究",
   "theme": "系统主题",
   "openSource": "开源代码",
-  "copyright": "{{name}} 团队用 ❤️ 构建",
+  "copyright": "此为NBGE内部测试专用",
   "searchPlaceholder": "请输入关键词",
   "research": {
     "common": {
